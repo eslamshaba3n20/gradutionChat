@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #55bfcf;
+    /* اللون الأساسي */
+    --secondary-color: #6e84ab;
+    /* لون ثانوي */
+    --heading-color: #15346c;
+    /* لون العناوين */
+    --text-color: #ffffff;
+    /* لون النصوص الفاتحة */
+    --muted-text-color: #8898aa;
+    /* لون النصوص الباهتة */
+    --border-color: #64748b;
+    /* لون الحدود */
+    --dark-text-color: black;
+    /* لون النصوص الداكنة */
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: var(--heading-color);
+}
+
+.myborder {
+    border: 2px solid red;
+}

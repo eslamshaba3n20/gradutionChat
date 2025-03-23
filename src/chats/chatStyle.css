@@ -1,0 +1,14 @@
+.mainColor {
+    color: var(--primary-color) !important;
+}
+
+.mainBgColor {
+    background-color: var(--primary-color) !important;
+    color: var(--text-color) !important;
+
+}
+
+.chatBackGround {
+    background-color: #EFF2F9 !important;
+
+}
