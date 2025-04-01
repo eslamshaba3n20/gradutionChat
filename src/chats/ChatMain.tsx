@@ -94,7 +94,6 @@ const ChatMain = ({ handleShowLefttBar, handleShowRightBar }: CounterProps) => {
                     className="d-flex align-items-center flex-grow-1 rounded ps-2">
                     <BsPaperclip size={20} className="text-secondary me-1" role="button" />
 
-                    {/* حقل إدخال النص */}
                     <InputGroup className="flex-grow-1 ">
                         <Form.Control
                             type="text"
@@ -103,11 +102,9 @@ const ChatMain = ({ handleShowLefttBar, handleShowRightBar }: CounterProps) => {
                         />
                     </InputGroup>
 
-                    {/* أيقونة الإيموجي */}
                     <BsFillEmojiSmileFill size={17} className="text-secondary mx-3" role="button" />
 
                 </div>
-                {/* زر إرسال الرسالة */}
                 <button className="btn btn-sm  d-flex align-items-center justify-content-center mainBgColor shadow-none" style={{ width: "35px", height: "35px" }}>
                     <BsSend size={15} />
                 </button>
